@@ -18,9 +18,9 @@ const AccountDropdown: React.FC = () => {
         <Dropdown.Item href="/signup">Add New Account</Dropdown.Item>
         <Dropdown.Item href="/import">Import Account</Dropdown.Item>
         <Dropdown.Divider />
-        <Dropdown.Item href="#" className="text-light w-auto text-center bg-danger m-2 rounded shadow" onClick={logout}>
+        <button className="border-0 text-light w-75 text-center bg-danger m-2 rounded shadow" onClick={logout}>
             Log out
-        </Dropdown.Item>
+        </button >
       </Dropdown.Menu>
     </Dropdown>
   );

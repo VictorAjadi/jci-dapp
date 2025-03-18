@@ -1,10 +1,9 @@
 // src/pages/LoginPage.tsx
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Card, Form, Button } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import styled from 'styled-components';
-import { FaLock, FaUserPlus, FaFileImport, FaArrowLeft } from 'react-icons/fa';
 import useImage from '../hooks/useImage';
 
 const CardHeader = styled(Card.Header)`
@@ -58,7 +57,7 @@ const LoginPage = () => {
     <Link 
         to='/signup'
         className='text-light'
-        >
+    >
      Create New Account
     </Link>   
  </Button>

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HDNode } from '@ethersproject/hdnode';
-import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Card, Form, Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
 import toast from 'react-hot-toast';
 import useImage from '../hooks/useImage';

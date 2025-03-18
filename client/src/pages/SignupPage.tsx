@@ -1,10 +1,9 @@
 // src/pages/SignupPage.tsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
+import { Card, Form, Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
 import toast from 'react-hot-toast';
-import { FaUserPlus } from 'react-icons/fa';
 import useImage from '../hooks/useImage';
 import styled from 'styled-components';
 
